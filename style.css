@@ -1,0 +1,139 @@
+html,
+body {
+    font-size:16px;
+    font-family: arial;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+#immagine {
+    height:100%;
+    width:100%;
+    background-image: url('cane_home.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    z-index:999;
+    text-align: center;
+    background: #000;
+    opacity: 0.7;
+    border-bottom: 1px solid #000;
+    height: 100px;
+    position:fixed;
+    width:100%;
+}
+
+header nav {
+    padding: 20px 0;
+}
+
+header nav ul li {
+    font-weight: 800;
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:#ccc;
+    padding-right: 100px;
+    padding-top:15px;
+}
+
+header nav ul li a:hover {
+    color:#fff;
+}
+
+#active {
+    color: #fff;
+}
+
+#title {
+    width:20%;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 150px;
+}
+
+#title h1{
+    color:#fff;
+}
+
+#title p {
+    color: #eee;
+    font-weight: 600;
+    padding: 20px 0px;
+    border-right: 1px solid #fff;
+    border-bottom:1px solid #fff;
+    font-size: 20px;
+
+}
+
+
+
+/*pagina where*/
+
+#container {
+    padding-top:100px;
+    position: relative;
+}
+
+#map {
+    z-index:1;
+    width:50%;
+}
+
+#img {
+    position: absolute;
+    top:0;
+    right:-20px;
+    width:50%;
+    height:100%;
+    background-image: url('cane_home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title2 {
+    width:30%;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 150px;
+}
+
+#title2 h1{
+    color:#fff;
+}
+
+#title2 p {
+    color: #eee;
+    font-weight: 600;
+    padding: 20px 0px;
+    border-right: 1px solid #fff;
+    border-bottom:1px solid #fff;
+    font-size: 20px;
+}
+
+#check {
+    position:absolute;
+    bottom:120px;
+    left:20px;
+    transform: translateY(-50%);
+    width:220px;
+    border-left:1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-left:10px;
+}
+
+#check ul li{
+    list-style: none;
+}
+
